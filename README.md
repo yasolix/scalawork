@@ -2,7 +2,7 @@
 
 Download or clone the project
 
-$ cd vcfscalaproject
+$ cd vcfsparkproject
 
 $ mvn package
 
