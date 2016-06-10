@@ -1,13 +1,11 @@
 /*
- * Copyright 2015 Sanford Ryza, Uri Laserson, Sean Owen and Joshua Wills
- *
- * See LICENSE file for further information.
  */
 
-package com.bio.vaiantcall
+package com.bio.variantcall
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
 
 object VariantCallApp{
   def main(args: Array[String]) {
