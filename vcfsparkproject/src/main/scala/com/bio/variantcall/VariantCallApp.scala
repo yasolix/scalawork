@@ -63,6 +63,7 @@ object VariantCallApp{
 
   def vcfRead(){
 
+
     val filename = "./data/fb_sample.vcf"
     val vcf = sc.textFile("./data/fb_sample.vcf")
     vcf.filter(isHeader).foreach(println)
@@ -90,7 +91,6 @@ object VariantCallApp{
     parseline.chrom
 
     val parsed1 = noheader1.map(line => parseVariantLine(line))
-
 
   }
 
@@ -127,5 +127,7 @@ object VariantCallApp{
 
 
   }
+
 }
+
 
